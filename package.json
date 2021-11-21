@@ -1,0 +1,38 @@
+{
+  "name": "tanna-toh-discord-bot",
+  "version": "1.0.0",
+  "description": "Toda a informação de Tormenta20 que você precisa!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagoalcantara/tanna-toh-discord-bot.git"
+  },
+  "keywords": [
+    "tormenta",
+    "tormenta20",
+    "discord",
+    "bot"
+  ],
+  "author": "Tiago Alcantara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagoalcantara/tanna-toh-discord-bot/issues"
+  },
+  "homepage": "https://github.com/tiagoalcantara/tanna-toh-discord-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "axios": "^0.21.1",
+    "discord.js": "^13.0.0",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  }
+}
